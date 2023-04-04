@@ -13,5 +13,10 @@ public class BharatBnd {
 	{
 		System.out.println("English");
 	}
-
+	@Test(groups = "regression")
+	public void createCustomer2()
+	{
+		System.out.println("kannada");
+	}
+	
 }
