@@ -10,5 +10,10 @@ public class Tester
 	{
 		Reporter.log("hi",true);
 	}
+	@Test
+	public void develiper()
+	{
+        Reporter.log("bye",true);
 
+}
 }
