@@ -8,7 +8,7 @@ public class BharatBnd {
 	{
 		System.out.println("Hindi");
 	}
-	@Test(groups = "regression")
+	@Test(groups = "regression")	
 	public void createCustomer1()
 	{
 		System.out.println("");
