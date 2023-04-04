@@ -44,11 +44,11 @@ public class Doctorlogin
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	    Alert a = driver.switchTo().alert();
 	    a.accept();
-		driver.findElement(By.xpath("//input[@placeholder='New Password']")).click
+		driver.findElement(By.xpath("//input[@placeholder='New Password']")).click();
 		
 	}
 }
 
 
 
-}
+
