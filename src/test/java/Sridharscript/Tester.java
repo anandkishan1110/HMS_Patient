@@ -15,10 +15,6 @@ public class Tester
 	{
 		Reporter.log("bye",true);
 	}
-	@Test
-	public void tester2()
-	{
-		Reporter.log("tata",true);
-	}
+	
 	
 }
