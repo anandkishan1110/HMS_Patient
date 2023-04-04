@@ -11,7 +11,7 @@ public class BharatBnd {
 	@Test(groups = "regression")
 	public void createCustomer1()
 	{
-		System.out.println("English");
+		System.out.println("");
 	}
 	@Test(groups = "regression")
 	public void createCustomer2()
