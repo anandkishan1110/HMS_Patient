@@ -10,5 +10,15 @@ public class Tester
 	{
 		Reporter.log("hi",true);
 	}
+	@Test
+	public void tester1()
+	{
+		Reporter.log("bye",true);
+	}
+	@Test
+	public void tester2()
+	{
+		Reporter.log("tata",true);
+	}
 	
 }
