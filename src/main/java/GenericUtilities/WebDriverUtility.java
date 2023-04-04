@@ -288,5 +288,9 @@ public class WebDriverUtility {
 	    j.executeScript("window.scrollBy(0,"+y+")", element);
 		
 	}
-	
+	public void notifications()
+	{
+                ChromeOptions cp = new ChromeOptions();
+		      cp.addArguments("---handled--");
+	 }
 }
